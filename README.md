@@ -47,7 +47,7 @@
 
 Modify the project path '/vol/vssp/mightywings/'.
 
-The Code hierarchy section contains the three main pieces of codes that the user needs to execute: prepare_input_mask.py, main_mask.py and run_test_mask.py. 
+The Code hierarchy section contains the main pieces of codes that the user needs to execute: prepare_input_mask.py, main_mask.py 
 
 Their very first line of each of these .py files corresponds to the command the user needs to run, for example:
 
