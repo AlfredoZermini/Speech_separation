@@ -52,7 +52,7 @@ The Code hierarchy section contains the three main pieces of codes that the user
 
 Their very first line of each of these .py files corresponds to the command the user needs to run, for example:
 
-python prepare_input_mask.py B_format train 12BB01 12BB01 ['theta','MV'] ''
+    python prepare_input_mask.py B_format train 12BB01 12BB01 ['theta','MV'] ''
 
 will execute prepare_input_mask.py, with several given options, depending on the task. 
 
