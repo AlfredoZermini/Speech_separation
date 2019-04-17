@@ -34,7 +34,7 @@ prepare_input_mask.py
 
  |___prepare_data.py - stats.py
  
-      |___generate_list.py
+ |___generate_list.py
       
 
 main_mask.py
