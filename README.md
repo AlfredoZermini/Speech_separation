@@ -14,6 +14,8 @@ Python code used in my PhD
 -train_RNN_mask.py -> train RNN
 -utilities.py -> more utilities
 
+
+
 2)Code hierarchy (only the main parts of the code are listed):
 prepare_input_mask.py
  |___prepare_data.py - stats.py
@@ -21,6 +23,8 @@ prepare_input_mask.py
 
 main_mask.py
  |___train_DNN_mask.py - train_CNN_mask.py - train_RNN_mask.py
+
+
 
 
 3)Instructions
