@@ -26,12 +26,9 @@ def main_mask():
     elif 'MV' in features_name and 'theta' not in features_name:
         Xtrain = np.zeros([x.shape[0],x.shape[1],x.shape[2],2])
         Xtrain = x[:,:,:,1:3]
-        #Xtrain = x[:,:,:,1:3]
         
     elif 'theta' in features_name and 'MV' in features_name:
-        Xtrain = np.zeros([x.shape[0],x.shape[1],x.shape[2],2])
-        #Xtrain[:,:,:,0] = x[:,:,:,0]
-        #Xtrain[:,:,:,1] = np.mean(x[:,:,:,1:3],axis=3)
+        Xtrain = np.zeros([x.shape[0],x.shape[1],x.shape[2],3])
         Xtrain = x
 
     elif 'theta' in features_name and 'MV' in features_name and 'MVratio' in features_name:
