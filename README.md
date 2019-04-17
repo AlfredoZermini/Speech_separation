@@ -1,5 +1,4 @@
-# Speech_separation
-Python code used in my PhD
+# Speech_separation code
 
 1)List of .py files in alphabetical order:
 
