@@ -1,33 +1,6 @@
 # Speech_separation code
 
-1)List of .py files in alphabetical order:
-
--feature.py -> evaluate low level features
-
--generate_list.py -> generate training and testing files lists
-
--generate_spectrograms_mask.py -> generate the spectrograms masks
-
--main_mask.py -> run neural network training
-
--prepare_data.py -> create speech mixtures
-
--prepare_input_mask.py -> create input features and stores them
-
--stats -> running stats
-
--train_CNN_mask.py -> train CNN
-
--train_DNN_mask.py -> train DNN
-
--train_RNN_mask.py -> train RNN
-
--utilities.py -> more utilities
-
-
-
-
-2)Code hierarchy (only the main parts of the code are listed):
+1)Code hierarchy (only the main parts of the code are listed):
 
     prepare_input_mask.py
 
@@ -43,7 +16,7 @@
 
 
 
-3)Instructions
+2)Instructions
 
 Modify the project path '/vol/vssp/mightywings/'.
 
@@ -62,4 +35,8 @@ Run the code in the following order:
 
 a)Run prepare_input_mask.py to generate the training and testing sets. Set the correct parameters first for the training and then the testing features.
 
-b)Run main_mask.py to run the training of the neural network. A DNN, CNN or RNN can be selected by importing the correct .py. i.e. import train_DNN_mask.py will run a DNN.
+b)Run main_mask.py to run the training of the neural network. 
+
+     python main_mask.py B_format train 12BB01 ['theta','MV'] '' '' 
+     
+A DNN, CNN or RNN can be selected by importing the correct .py. i.e. import train_DNN_mask.py will run a DNN.
