@@ -30,16 +30,16 @@ Python code used in my PhD
 
 2)Code hierarchy (only the main parts of the code are listed):
 
-prepare_input_mask.py
+    prepare_input_mask.py
 
- |___prepare_data.py - stats.py
+        |___prepare_data.py - stats.py
  
- |___generate_list.py
+            |___generate_list.py
       
+ 
+    main_mask.py
 
-main_mask.py
-
- |___train_DNN_mask.py - train_CNN_mask.py - train_RNN_mask.py
+        |___train_DNN_mask.py - train_CNN_mask.py - train_RNN_mask.py
 
 
 
