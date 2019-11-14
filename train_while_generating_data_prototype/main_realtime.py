@@ -20,7 +20,7 @@ n_masks = 3
 
 def main_mask():
 
-    Xtrain, y =  
+    Xtrain, y = prepare_input_mask(vel, p0)
         
     # labels
     ytrain0 = y[:,0,:,:]
